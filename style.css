@@ -1,0 +1,119 @@
+body {
+    background: linear-gradient(360deg, rgba(213, 150, 31, 0.972), rgba(118, 1, 213, 0.667));
+    text-align: center;
+ };
+ 
+ #container {
+    width: 0%;
+ }
+ 
+ .game{
+    margin-left: 35%;
+    position: relative;
+    height: 65vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    position: relative;
+    
+    
+ }
+ 
+ #box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #fff;
+    box-shadow: -8px 8px 8px rgba(0, 0, 0, 0.7);
+ }
+ 
+ #reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 1.5rem;
+    box-shadow: -8px 8px 8px rgba(0, 0, 0, 0.7);
+ }
+ 
+ #start-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 2rem;
+    box-shadow: -8px 8px 8px rgba(0, 0, 0, 0.7);
+ }
+ 
+ #msg{
+    color: #fff;
+    font-size: 9vmin;
+    height: 25vmin;
+    box-shadow: -8px 8px 8px rgba(0, 0, 0, 0.7);
+ }
+ 
+ .hide {
+    display: none;
+ }
+ 
+ .msg-container {
+    height: 100vh;
+ }
+ 
+ 
+ /* draw conntainer */
+ 
+ .draw-container{
+    height: 100vh;
+ };
+ 
+ .draw-msg {
+    color: #fff;
+    font-size: 9vmin;
+ }
+ 
+ #draw-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 2rem;
+ }
+ 
+ @media (min-width : 212px)and (max-width : 1090px) {
+    .game{
+       margin-left: 20%;
+       position: relative;
+       height: 60vmin;
+       width: 60vmin;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+       gap: 1.5vmin;
+       position: relative;
+       
+       
+    }
+ }
+ h1 {
+    color: #f3c0c0;
+    box-shadow: -8px 8px 8px rgba(0, 0, 0, 0.7);
+ }
+ 
+ h5 {
+    color: rgba(94, 87, 87, 0.93);
+    box-shadow: -8px 8px 12px rgba(0, 0, 0, 0.7);
+ };
