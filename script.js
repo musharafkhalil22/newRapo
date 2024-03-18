@@ -65,3 +65,11 @@ startBtn.addEventListener("click", ()=>{
     btn.disabled = false;
   }
 });
+
+resetBtn.addEventListener("click", ()=>{
+  for(let btn of allBtn){
+    winMsg.classList.add("hide");
+    btn.innerHTML= "";
+    btn.disabled = false;
+  }
+})
